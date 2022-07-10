@@ -1,0 +1,140 @@
+.navbar_body{
+  background-color: #000;
+  width: 100%;
+  background-attachment: fixed;
+  font-family: 'Bree Serif', serif;
+ 
+}
+.menuitem{
+  margin-left:320px;
+}
+.featurecomponent h1{
+ font-size: 0.3rem;       
+}
+.menuitem{ 
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white; 
+}
+#home{
+  color: white;
+  margin-left: 40px;
+  letter-spacing:1.8px;
+  font-size: 18px;
+}
+@media screen and (min-width:320px) and (max-width:600px){
+  .menuitem{
+    margin-left: 0px;
+    background-color: white;
+    width: auto;
+  }
+  #home{
+    color: black;
+  }
+  .navcolor{
+    background-color: white;
+  }
+}
+section{
+  overflow: hidden;
+}
+nav.sticky{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 100px;
+  color: black;
+  z-index: 500;
+  background-color: black;
+  box-shadow: 0 0 8px 0 #cfc9c9;
+}
+@media screen and (min-width:320px) and (max-width:600px){
+  nav.sticky{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 80px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 8px 0 #cfc9c9;
+  }
+}
+nav .sticky #home{
+  color: black;
+}
+
+/* bodytext */
+.nametext{
+  font-family: 'Bree Serif', serif;
+  margin-top: 130px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.nametext h1{
+  font-size: 70px;
+}
+.nametext p{
+  font-size: 25px;
+  text-transform: lowercase;
+}
+.headimage{
+  width: 100%;
+  margin-right: 30px;
+}
+@media screen and (min-width:320px) and (max-width:600px){
+  .nametext {
+   margin-bottom: 10px;
+  }
+}
+@media screen and (min-width:320px) and (max-width:600px){
+  .nametext p{
+   font-size: 10px;
+  }
+}
+@media screen and (min-width:320px) and (max-width:600px){
+  .nametext button{
+   margin: 20px;
+  }
+}
+@media screen and (min-width:320px) and (max-width:600px){
+  .headimage{
+    display: none;
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:600px){
+  .imageclassbody{
+    min-height: 10vh;
+  }
+}
+
+
+/* mediaquery */
+@media screen and (min-width:320px) and (max-width:600px){
+  .logo{
+    width: 50%;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:600px){
+  .nametext .hello{
+    font-size: 30px;
+    margin-top: -100px;
+    
+  }
+  .nametext .rabin{
+    font-size: 30px;
+  }
+  .nametext{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+}
+

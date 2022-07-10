@@ -1,0 +1,155 @@
+.Aboutmesection {
+  background-color: #6b7070;
+  min-height: 100vh;
+  color: white;
+}
+.aboutmeimage img {
+  width: 60%;
+  height: 200;
+  margin-top: 60px;
+  outline: 4px solid white;
+  outline-offset: 5px;
+}
+
+.Abouthead h1 {
+  font-weight: 600;
+  font-family: "Bree Serif", serif;
+  font-size: 40px;
+}
+.aboutunderline {
+  border: 2px solid #ff1c1c;
+  width: 160px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.aboutmyself {
+  margin-top: 100px;
+  font-family: "Bree Serif", serif;
+}
+
+.aboutmyselfparagraph {
+  text-align: justify;
+  padding: 10px;
+  word-spacing: normal;
+  margin: 20px;
+  font-size: 18px;
+  line-height: 2;
+}
+#aboutcard {
+  border: 1px solid;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  box-shadow: 5px 10px 10px #fff;
+}
+
+/* aboutmediaquery */
+@media screen and (min-width:300px) and (max-width:600px){
+  .aboutmeimage img{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+  .mediacard{
+    min-height: 30px;
+    margin:25px ;
+  }
+}
+
+/* educationcomponentcss */
+.educationsection{
+  background-color: #4a4d4d;
+  min-height: 70vh;
+  color: white;
+  letter-spacing: 0.5px;
+}
+.schoolname{
+  text-align: justify;
+  font-weight: 600;
+  margin-top: 60px;
+  font-family: "Bree Serif", serif;
+  line-height: 3;
+}
+
+.eduimage img{
+  width: 80%;
+  height: auto;
+}
+
+@media screen and (min-width:320px) and (max-width:600px){
+  .schoolname{
+  font-size: 12px;
+  list-style: none;
+  line-height: 4;
+  width: 100%;
+  }
+}
+@media screen and (min-width:320px) and (max-width:600px){
+  .eduimage img{
+      position: relative;
+      width: 100%;
+      height: auto;
+      margin-left: 0px;
+      display: none;
+  }
+}
+
+/* footercss */
+.footerclass {
+  background-color: #737a7a;
+}
+.footerimage{
+    height: 130px;
+  margin-top: 80px;
+}
+.contactmehead {
+  font-weight: 600;
+  font-family: "Bree Serif", serif;
+  color: white;
+  padding: 15px;
+  margin: 0px;
+}
+.contactmehead h3 {
+  font-size: 35px;
+}
+
+#contactcontent {
+  font-size: 15px;
+  font-family: "Bree serif", serif;
+  color: white;
+  letter-spacing: 1px;
+}
+.iconborder {
+  width: 40px;
+  border-radius: 8px;
+  border: 2px solid #d6d6d6;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px;
+}
+
+@media screen and (min-width:300px) and (max-width:600px){
+  .iconborder{
+    width: auto;
+    margin: 0px 0px;
+    border: 0px solid #d6d6d6;
+  }
+}
+#footeritem{
+    color: white;
+}
+
+@media screen and (min-width:300px) and (max-width:600px){
+  footer{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

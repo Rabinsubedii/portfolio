@@ -1,0 +1,65 @@
+.skillsection{
+    /* background-color: #e1d2e9; */
+    background-color: #242525;
+    min-height: 40vh;
+    color: white;
+}
+.skillimage img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-left: -90px;
+} 
+#skillhead{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: "Bree Serif", serif;
+    padding: 10px;
+   letter-spacing: 5px;
+}
+@media screen and (min-width:320px) and (max-width:600px){
+    .skillimage img{
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        display: none;
+    }
+}
+
+.progressBar{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    margin: 30px ;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Bree serif", serif;
+}
+.htmlbar,.photoshopbar, .cssbar,.jsbar,.bsbar,.mediabar{
+    padding:10px;
+}
+@media screen and (min-width:320px) and (max-width:600px){
+.progressBar{
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 0px ;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Bree serif", serif;
+}
+}
+/* contactpagecss */
+.contactsection{
+    background-color: #5d7373;
+    min-height: 80vh;
+    color: white;
+ 
+}
+.contactmesideimage{
+    width: 80%;
+    height: auto;
+    position: relative;
+}
+/* contactmediaquery */
